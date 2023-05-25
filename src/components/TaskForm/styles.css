@@ -1,0 +1,40 @@
+.form-container {
+  display: flex;
+  gap: 1%;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(155, 240, 240);
+}
+.heading-input,
+.description-input,
+.select-input,
+button {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: beige;
+}
+.heading-input {
+  width: 25%;
+}
+.description-input {
+  width: 40%;
+}
+.select-input {
+  width: 15%;
+}
+.form-button {
+  width: 15%;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
